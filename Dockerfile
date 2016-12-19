@@ -1,14 +1,4 @@
-# DOCKER-VERSION 1.0.0
-# 
-# Ceph OSD
-#
-#  USAGE NOTES:
-#    * OSD_ID (numeric identifier for this OSD; obtain from `ceph osd create`)
-#
-# VERSION 0.0.2
-
-FROM index.alauda.cn/alexander/ceph-base:0.94.6
-MAINTAINER Seán C McCord "ulexus@gmail.com"
+FROM index.alauda.cn/alexander/ceph-base:10.2.5
 
 # Expose the ceph OSD port (6800+, by default)
 EXPOSE 6800
