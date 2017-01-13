@@ -1,4 +1,4 @@
-FROM index.alauda.cn/alexander/ceph-base:10.2.5
+FROM registry.alauda.cn/imdjh/ceph-base:jewel
 
 # Expose the ceph OSD port (6800+, by default)
 EXPOSE 6800
